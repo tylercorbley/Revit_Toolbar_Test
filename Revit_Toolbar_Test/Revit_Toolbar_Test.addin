@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Revit_Toolbar_Test - Command 1</Text>
+    <Description>Some description for Revit_Toolbar_Test</Description>
+    <Assembly>Revit_Toolbar_Test.dll</Assembly>
+    <FullClassName>Revit_Toolbar_Test.Command1</FullClassName>
+    <ClientId>23dfd014-bb4e-4709-b813-27076974ff72</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>Revit_Toolbar_Test - Command 2</Text>
+    <Description>Some description for Revit_Toolbar_Test</Description>
+    <Assembly>Revit_Toolbar_Test.dll</Assembly>
+    <FullClassName>Revit_Toolbar_Test.Command2</FullClassName>
+    <ClientId>1ea8d98b-7ac1-4cfb-ad42-87ad4aa517c7</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Revit_Toolbar_Test</Name>
+    <Assembly>Revit_Toolbar_Test.dll</Assembly>
+    <FullClassName>Revit_Toolbar_Test.App</FullClassName>
+    <ClientId>8936e171-b1bb-4c77-a123-4ec367fffe0f</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>

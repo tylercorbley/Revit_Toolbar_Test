@@ -1,11 +1,6 @@
 ﻿using Autodesk.Revit.UI;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
 namespace Revit_Toolbar_Test
@@ -27,16 +22,16 @@ namespace Revit_Toolbar_Test
             // set command availability
             Data.AvailabilityClassName = "Revit_Toolbar_Test.CommandAvailability";
         }
-        private Assembly GetAssembly()
+        public static Assembly GetAssembly()
         {
             return Assembly.GetExecutingAssembly();
         }
 
-        private string GetAssemblyName()
+        public static string GetAssemblyName()
         {
             return Assembly.GetExecutingAssembly().Location;
         }
-        private BitmapImage BitmapToImageSource(System.Drawing.Bitmap bm)
+        public static BitmapImage BitmapToImageSource(System.Drawing.Bitmap bm)
         {
             using (MemoryStream mem = new MemoryStream())
             {
